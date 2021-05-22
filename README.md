@@ -4,8 +4,7 @@ Works best with default dark theme and alpenglow theme. Compact mode enabled.
 
 _Stuff that don't work properly (hopefully will be fixed):_
 1. Container tab indicators
-2. Selected tab gradient indicator - doesn't cover entire tab outline, only top part.
-3. Tabs lose its shape when tab scrollbox enlarges in size due to many open tabs(approx 15+ tabs)
+2. Tabs lose its shape when tab scrollbox enlarges in size due to many open tabs(approx 15+ tabs)
 
 How to add stylesheets: https://winaero.com/enable-loading-userchrome-css-usercontent-css-firefox/
 
