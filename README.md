@@ -3,8 +3,8 @@ Changes to make the new proton UI redesign in Firefox better; including changes 
 Works best with default dark theme and alpenglow theme. Compact mode enabled.
 
 _Pending fixes:_
-1. Container tab indicators
-2. Tabs lose its shape when tab scrollbox enlarges in size due to many open tabs(approx 15+ tabs)
+1. Container tab indicators (temp fix added - revert to regular tabs design)
+2. Tabs lose its shape when tab scrollbox enlarges in size due to many open tabs - approx 15+ tabs
 
 How to add stylesheets: https://winaero.com/enable-loading-userchrome-css-usercontent-css-firefox/
 
