@@ -264,6 +264,14 @@
   border-image: 1 0 0 0 linear-gradient(90deg, #9400FF, #ba00e5, #df06b9, #e62da7, #f13b95, #f64d86, #f85f7a, #fc7169, #f9845b, #e8ab52) !important;
       
     }
+
+    .tabbrowser-tab[usercontextid] > .tab-stack > .tab-background[selected=true] > .tab-context-line {
+      background-color: #2B2A33 !important;
+      height: inherit !important;
+      border-radius: 0px !important;
+      margin: 0px !important;
+      
+    }
     
     .tabbrowser-tab:hover > .tab-stack > .tab-background:not([selected=true]) > .tab-context-line {
       background-image: var(--background-hover-middle) !important;
@@ -273,9 +281,6 @@
       box-shadow: none !important;    
     }
 
-    .tab-background[selected="true"][class*="identity-color-"] > .tab-context-line {
-      background-image: var(--background-selected-middle) !important;
-  }
 
 :root {
       --svg-selected-before: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:svg='http://www.w3.org/2000/svg' width='30px' height='31px' preserveAspectRatio='none'><defs><svg:clipPath id='tab-curve-clip-path-start' clipPathUnits='objectBoundingBox'><svg:path d='m 1,0.065 0.05,0 0,0.938 -1,0 0,-0.028 C 0.32082458,0.95840561 0.4353096,0.81970962 0.48499998,0.5625 0.51819998,0.3905 0.535,0.0659 1,0.065 z'/></svg:clipPath><svg:clipPath id='tab-curve-clip-path-end' clipPathUnits='objectBoundingBox'><svg:path d='m 0,0.065 -0.05,0 0,0.938 1,0 0,-0.028 C 0.67917542,0.95840561 0.56569036,0.81970962 0.51599998,0.5625 0.48279998,0.3905 0.465,0.0659 0,0.065 z'/></svg:clipPath><svg:clipPath id='tab-hover-clip-path' clipPathUnits='objectBoundingBox'><svg:path d='M 0,0.2 0,1 1,1, 1,0.2 z'/></svg:clipPath></defs><foreignObject width='30' height='31' clip-path='url(%23tab-curve-clip-path-start)'><div id='tab-background-fill' style='background-color:rgb(43, 42, 51);background-repeat:no-repeat;height:100%;width:100%;' xmlns='http://www.w3.org/1999/xhtml'></div></foreignObject></svg>");
