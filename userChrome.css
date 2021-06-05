@@ -442,3 +442,21 @@ tooltip {
 	background-color: transparent !important;
 }
 
+
+/* sidebar bgcolor to proton dark */
+#sidebar-header,#sidebar-search-container,#bookmarks-view-children,#historyTree {
+	background-color: #2b2a33 !important;
+	-moz-appearance:none!important;
+	
+  }
+  #bookmarksPanel, #history-panel {
+	background-color: #2b2a33 !important;
+  }
+/* synced tabs sidebar bgcolor */  
+  #template-container.content-scrollable{
+	background-color: #2b2a33 !important;
+  }
+
+  .sidebar-splitter {
+	display: none !important
+  }
