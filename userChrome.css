@@ -460,3 +460,37 @@ tooltip {
   .sidebar-splitter {
 	display: none !important
   }
+
+/* menu customizations */
+menupopup > menuitem,
+menupopup > menu
+ {
+	border-radius: 4px !important;
+	margin-left: 8px !important;
+	margin-right: 8px !important;
+}
+
+
+/** Menu top items border and padding */
+/* context menu top left button padding */
+menugroup > menuitem:first-child {  
+	border-radius: 4px !important;
+	padding-left: 8px !important;
+}
+/* context menu top right button padding */
+menugroup > menuitem:last-child {  
+	border-radius: 4px !important;
+	padding-right: 8px !important;
+
+}
+/* context menu top buttons radius */
+menugroup > menuitem {
+	border-radius: 4px !important;
+}
+menugroup > menuitem > hbox > image {  
+  border-radius: 4px !important;
+}
+/* for menu item with submenu  */
+.panel-header > .subviewbutton {
+	border-radius: 4px !important;
+  }
