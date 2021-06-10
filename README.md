@@ -2,9 +2,9 @@ Changes to make the new proton UI redesign in Firefox better; including changes 
 
 Works best with default dark theme and alpenglow theme. Compact mode enabled.
 
-_Pending fixes._
-
 How to add stylesheets: https://winaero.com/enable-loading-userchrome-css-usercontent-css-firefox/
+
+_Pending fixes._
 
 <img width="957" alt="Screenshot (286)" src="https://user-images.githubusercontent.com/56472130/119192124-a7e82d00-ba90-11eb-9942-f543acde414f.png">
 
