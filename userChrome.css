@@ -442,21 +442,6 @@ tooltip {
 	background-color: transparent !important;
 }
 
-
-/* sidebar bgcolor to proton dark */
-#sidebar-header,#sidebar-search-container,#bookmarks-view-children,#historyTree {
-	background-color: #2b2a33 !important;
-	-moz-appearance:none!important;
-	
-  }
-  #bookmarksPanel, #history-panel {
-	background-color: #2b2a33 !important;
-  }
-/* synced tabs sidebar bgcolor */  
-  #template-container.content-scrollable{
-	background-color: #2b2a33 !important;
-  }
-
   .sidebar-splitter {
 	display: none !important
   }
@@ -518,3 +503,16 @@ menugroup > menuitem > hbox > image {
 #urlbar[open=true] #star-button-box{
     display: -moz-box !important;
 }
+
+/*prevent tab overflow to expand causing height changes */
+#tabbrowser-tabs,
+#tabbrowser-tabs > .tabbrowser-arrowscrollbox{
+  min-height: unset !important;
+}
+#TabsToolbar{ --toolbarbutton-inner-padding: 2px !important; }
+
+/*container tab label color when selected */
+  .tabbrowser-tab[class*="identity-color-"] .tab-label {
+    color: var(--identity-tab-color) !important;
+}
+
