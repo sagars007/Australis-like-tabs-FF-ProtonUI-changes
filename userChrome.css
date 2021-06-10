@@ -494,3 +494,10 @@ menugroup > menuitem > hbox > image {
 .panel-header > .subviewbutton {
 	border-radius: 4px !important;
   }
+
+/* green dot on pinned tab for site update notif */
+/* in console for testing: var titlechanger = window.setInterval(function(){document.title=document.title+'0';}, 5000); */
+.tabbrowser-tab > .tab-stack >
+.tab-content[pinned][titlechanged]:not([selected="true"]){
+ background-position: bottom !important;
+}
